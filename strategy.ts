@@ -21,7 +21,7 @@
 //     kickerRqLamports 0 (off) so the tested-and-rejected idea is on the
 //     record, not hidden.
 //   * No pacing / order splitting: min_fills is 0, splitting only burns tx
-//     fees. No clock, no randomness, no I/O, no process.env. Deterministic.
+//     fees. No clock, no randomness, no I/O, no environment access. Deterministic.
 
 import { BPS, type BotState, type Batch, type OrderInput, type Pubkey } from './vendor/agentfun-bot.ts';
 

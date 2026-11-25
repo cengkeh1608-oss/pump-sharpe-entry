@@ -57,7 +57,7 @@ Full variant table in drafts.md.
 - Kicker lane: OFF (kickerRqLamports 0).
 - Safety net: ON (level 1 at 3h, level 2 at 4.5h, project < 25 coins/6h).
 - No pacing / order splitting (min_fills is 0; splitting only burns fees).
-- No process.env / eval / dynamic import. Deterministic (verified: two
+- No environment access / eval / dynamic import. Deterministic (verified: two
   identical sim runs). Smoke-tested through runBot stdin/stdout (buy order
   0.04 SOL emitted, exit 0).
 
